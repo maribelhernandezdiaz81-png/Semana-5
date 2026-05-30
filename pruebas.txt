@@ -1,0 +1,8 @@
+server.js
+app.post(¨"/reporte",(req,res)=>{
+    const mensaje=req.body.mensaje;
+    res.json({
+        estado: "Recibido",
+        mensaje:mensaje
+        
+    })
